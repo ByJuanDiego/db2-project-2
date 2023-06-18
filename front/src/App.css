@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.app > *{
+  margin-bottom: 5rem;
+}
+
 .app >h2{
   height: auto;
   font-size: 50px;
@@ -18,9 +22,27 @@
 .query > *{
   height: 2rem;
 }
+.tabla-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabla-inside > * {
+  margin-bottom: 3rem;
+}
+.tablas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
 
-.query > input{
+#texto{
   width: 500px;
+  margin-right: 1rem;
+}
+#topk{
+  width: 50px;
   margin-right: 1rem;
 }
 
@@ -29,3 +51,4 @@
   border-radius: 5px;
   width: 5rem;
 }
+
